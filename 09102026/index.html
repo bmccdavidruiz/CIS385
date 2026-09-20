@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="David Ruiz">
+		<meta name="Description" content="Notes for 09/10/2026">
+		<title>Notes for 09/10/2026</title>
+        <!--Internal CSS-->
+        <style>
+            p {
+                color: purple;
+            }
+
+            h1 {
+                color: darkorange;
+            }
+
+            h2 {
+                color: aquamarine;
+                border-top: solid red 1px;
+            }
+
+            .class1 {
+                font-size: 20px;
+            }
+
+            .class2 {
+                text-transform: uppercase;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>CSS</h1>
+
+        <h2>Types</h2>
+        <ul>
+            <li>Inline</li>
+            <li>Internal/Embedded</li>
+            <li>External</li>
+        </ul>
+
+        <h2>Inline CSS</h2>
+
+        <p style="color:black">Uses the <code>style</code> attribute</p>
+
+        <p style="color:red">This is a paragraph</p>
+        <p style="color:green">This is a paragraph</p>
+        <p style="color:blue">This is a paragraph</p>
+
+        <h2>Internal/Embedded CSS</h2>
+
+        <p>Uses the <code>style</code> attribute on the head section of your page</p>
+
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+
+        <h2>CSS Class Selectors</h2>
+
+        <p class="class1">This is a paragraph</p>
+        <p class="class2">This is a paragraph</p>
+        <p class="class1">This is a paragraph</p>
+        <p class="class2">This is a paragraph</p>
+        <p class="class1">This is a paragraph</p>
+        <p class="class2">This is a paragraph</p>
+
+        <!--
+        Notes 
+
+        Global Attributes: id and class
+
+        CSS: inline, internal/embedded, external, imported
+        CSS rule: property-name: property-value
+        Inline: <p style="color: red; text-align: center">content</p>
+            Inline CSS has highest priority
+        Internal: Within <style> element which is within <head> element
+            p { <- selector , whole thing from selector to closing bracket is rule set
+                color: red;
+                text-align: center;
+            }
+
+        Rule sets on the bottom have highest precedence
+        
+        CSS selectors
+            Element selectors
+                p, h1, a {
+                    color: violet;
+                }
+            
+            ID selectors
+                Only one per page
+                <p id="par1">content</p>
+                #par1 {
+                    color: orange;
+                }
+            Class selectors
+                Can be multiple per page
+                <p class="redtext">content</p>
+                <div class="redtext">content</p>
+                .redtext {
+                    color: red;
+                }
+        -->
+    </body>
+
+</html>
