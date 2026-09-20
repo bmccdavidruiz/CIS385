@@ -1,0 +1,49 @@
+/*
+Student ID:
+Name:
+Filename:
+Description:
+Date:
+*/
+
+/*Element Selector*/
+p {
+    color: blue;
+}
+
+/*ID Selector*/
+#p01 {
+    color: yellow;
+}
+
+/*Class Selector*/
+.greentext {
+    color: green;
+}
+
+.redtext {
+    color: red;
+}
+
+.righttext {
+    text-align: right;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.newfont {
+    font-family:'Courier New', Courier, monospace;
+}
+
+th, td{
+    border: 1px solid black
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+
