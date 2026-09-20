@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="David Ruiz">
+        <meta name="Description" content="Notes for 09/17/2026">
+        <title>Notes for 09/17/2026</title>
+        <style>
+            th {
+                border: 1px solid black;
+                padding: 10px;
+                background-color: blue;
+                color: white;
+            }
+
+            td {
+                border: 1px solid black;
+                text-align: right;
+                padding: 10px;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 85%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>HTML Tables: 2026 Budget</h1>
+        <table>
+            <caption>2026 Budget</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Month</th>
+                    <th scope="col">Rent</th>
+                    <th scope="col">Transportation</th>
+                    <th scope="col">Food</th>
+                    <th scope="col">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">January</th>
+                    <td>900.00</td>
+                    <td>120.00</td>
+                    <td>400.00</td>
+                    <td>1420.00</td>
+                </tr>
+                <tr>
+                    <th scope="row">February</th>
+                    <td>900.00</td>
+                    <td>120.00</td>
+                    <td>400.00</td>
+                    <td>1420.00</td>
+                </tr>
+                <tr>
+                    <th scope="row">March</th>
+                    <td>900.00</td>
+                    <td>120.00</td>
+                    <td>400.00</td>
+                    <td>1420.00</td>
+                </tr>
+                <tr>
+                    <th scope="row">April</th>
+                    <td>900.00</td>
+                    <td>120.00</td>
+                    <td>400.00</td>
+                    <td>1420.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>Colspan and Rowspan</h1>
+
+        <table cellpadding="5" cellspacing="5">
+            <caption>Table 2</caption>
+            <thead>
+                <tr>
+                    <td colspan="2"></td>
+                    <!--<td></td>-->
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <!--<td></td>-->
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+
+</html>
